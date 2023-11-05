@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;800&display=swap');
+
+:root {
+	--navbar-color: #3A3333;
+	--primary-color: #45474B;
+	--secondary-color: #D9D9D9;
+	--yellow: #F4CE14;
+	--block-color: #282B31;
+	--onhover-color: #bebbad;
+}
+
+.w-fc {
+	width: fit-content;
+}
+
+.bg-b {
+	background-color: black;
+}
+
+.bg-bc {
+	background-color: var(--block-color);
+}
+
+.nav-bg {
+	background-color: var(--navbar-color);
+}
+
+.bg-yel {
+	background-color: var(--yellow);
+}
+
+.bg-sec {
+	background-color: var(--secondary-color);
+}
+
+.sec {
+	color: var(--secondary-color);
+}
+
+.bg-main {
+	background-color: var(--primary-color);
+}
+
+h1 {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-weight: 800;
+	margin: 0%;
+	color: var(--primary-color);
+}
+
+p {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-weight: 400;
+	color: var(--primary-color);
+}
+
+a {
+	text-decoration: none;
+	color: var(--primary-color);
+}
+
+.ps {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-weight: 400;
+}
+
+.rb {
+	border-radius: 24px;
+}
+
+.gi {
+	filter: grayscale(1);
+	transition: 0.3s;
+}
+
+.cb-2 {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-weight: 800;
+	border: 4px solid var(--primary-color);
+	border-radius: 24px;
+	transition: 0.3s;
+}
+
+.cb-2:hover {
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
+}
+
+.cb-3 {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-weight: 800;
+	border: 4px solid var(--secondary-color);
+	border-radius: 24px;
+	transition: 0.3s;
+}
+
+.cb-3:hover {
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
+}
+
+.cb-4 {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-weight: 800;
+	border-radius: 24px;
+	color: var(--secondary-color);
+	transition: 0.3s;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 6%;
+	padding-right: 6%;
+}
+
+.b-sec {
+	border: 4px solid var(--secondary-color);
+	border-radius: 24px;
+}
+
+.ml-5 {
+	margin-left: 5%;
+}
+
+.jajar-genjang {
+	width: 110px;
+	height: 70px;
+	transform: skew(-20deg);
+	background: #ffffff;
+}
+
+.wt {
+	color: white !important;
+}
+
+.yt {
+	color: var(--yellow) !important;
+}
+
+.t-o-p {
+	left: 30%;
+	bottom: 5%;
+	text-align: start !important;
+}
+
+.follow-button {
+	margin-top: 8%;
+	border-radius: 8px;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 12%;
+	padding-right: 12%;
+}
+
+.oh-fi:hover {
+	opacity: 0.6;
+	transition: .3s;
+}
+
+.oh-zoom {
+	transition: transform .1s;
+}
+
+.oh-zoom:hover {
+	transform: scale(1.05);
+	filter: none;
+}
+
+.oh-zoom:hover .gi {
+	filter: none;
+}
+
+.oh-zoom:hover .oh-wt {
+	color: var(--onhover-color);
+}
+
+.oh-wt {
+	transition: 0.3s;
+}
+
+.rectangle {
+	height: 0%;
+	width: 0%;
+	border-bottom: solid 60px black;
+	border-left: solid 40px transparent;
+	border-right: solid 40px transparent;
+}
+
+
+body,
+html {
+	height: 100%;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.bg-expo {
+	background-image: url(../assets/expo.jpg);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-top: 70px;
+}
+
+.bg-touring {
+	background-image: url(../assets/sepeda\ gunung.jpeg);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-top: 70px;
+}
+
+.bg-cfd {
+	background-image: url(../assets/sepedaramerame1.jpeg);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-top: 70px;
+}
+
+.bg-register {
+	background-image: url(../assets/register.jpeg);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-top: 70px;
+}
+
+.hasatu {
+	color: #ffffff;
+	padding-top: 125px;
+	padding-left: 92px;
+	font-size: 80px;
+}
+
+.hatiga {
+	color: #ffffff;
+	padding-left: 70px;
+}
+
+.kotak {
+	border-radius: 8px;
+	margin: 56px;
+	padding: 16px;
+	background-color: #D9D9D9;
+	margin-top: 50px;
+}
+
+.kotakkecil {
+	border: 2px solid #000000;
+	border-radius: 8px;
+	padding: 16px;
+	padding-left: 50px;
+	background-color: #ffffff;
+}
+
+.bg-expo-overlay {
+	background-color: rgba(53, 53, 52, 0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+}
+
+.datadiri {
+	margin-top: 24px;
+}
+
+.isi {
+	height: 56px;
+	font-size: 14pt;
+}
+
+.tulisantengah {
+	text-align: center;
+	padding: 300px;
+}
